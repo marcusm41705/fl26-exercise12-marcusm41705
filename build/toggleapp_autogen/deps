@@ -295,6 +295,7 @@ toggleapp_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qbasicatomic.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
@@ -314,6 +315,7 @@ toggleapp_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
@@ -404,15 +406,9 @@ toggleapp_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/sys/select.h \
 	/usr/include/x86_64-linux-gnu/sys/syscall.h \
 	/usr/include/x86_64-linux-gnu/sys/types.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
-	/usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
-	/usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
-	/usr/lib/llvm-18/lib/clang/18/include/stddef.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -549,11 +545,8 @@ toggleapp_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/usr/share/cmake-3.28/Modules/Compiler/Clang-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	/usr/share/cmake-3.28/Modules/Compiler/Clang-FindBinUtils.cmake \
-	/usr/share/cmake-3.28/Modules/Compiler/Clang.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
@@ -563,6 +556,8 @@ toggleapp_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+	/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+	/usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
@@ -600,7 +595,6 @@ toggleapp_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
 	/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
 	/usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-	/usr/share/cmake-3.28/Modules/Platform/Linux-Clang-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \

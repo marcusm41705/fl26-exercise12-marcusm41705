@@ -353,6 +353,7 @@ toggletest_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qassociativeiterable.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qbasicatomic.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
@@ -845,111 +846,103 @@ toggletest_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/sys/select.h \
 	/usr/include/x86_64-linux-gnu/sys/syscall.h \
 	/usr/include/x86_64-linux-gnu/sys/types.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__wmmintrin_aes.h \
-	/usr/lib/llvm-18/lib/clang/18/include/__wmmintrin_pclmul.h \
-	/usr/lib/llvm-18/lib/clang/18/include/adcintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/adxintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/amxcomplexintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/amxfp16intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/amxintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx2intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512bf16intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512bitalgintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512bwintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512cdintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512dqintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512erintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512fintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512fp16intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512ifmaintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512ifmavlintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512pfintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vbmi2intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vbmiintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vbmivlintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlbf16intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlbitalgintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlbwintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlcdintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vldqintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlfp16intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlvbmi2intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlvnniintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vlvp2intersectintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vnniintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vp2intersectintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vpopcntdqintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avx512vpopcntdqvlintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avxifmaintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avxintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avxneconvertintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avxvnniint16intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avxvnniint8intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/avxvnniintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/bmi2intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/bmiintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/cetintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/cldemoteintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/clflushoptintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/clwbintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/cmpccxaddintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/crc32intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/emmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/enqcmdintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/f16cintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/fmaintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/fxsrintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/gfniintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/hresetintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/immintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/invpcidintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/keylockerintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/lzcntintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/mm_malloc.h \
-	/usr/lib/llvm-18/lib/clang/18/include/mmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/movdirintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/pconfigintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/pkuintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/pmmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/popcntintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/prfchiintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/ptwriteintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/raointintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/rdseedintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/rtmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/serializeintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/sgxintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/sha512intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/shaintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/sm3intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/sm4intrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/smmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
-	/usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
-	/usr/lib/llvm-18/lib/clang/18/include/stddef.h \
-	/usr/lib/llvm-18/lib/clang/18/include/tmmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/tsxldtrkintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/uintrintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/usermsrintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/vaesintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/vpclmulqdqintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/waitpkgintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/wbnoinvdintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/wmmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/x86gprintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/xmmintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/xsavecintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/xsaveintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/xsaveoptintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/xsavesintrin.h \
-	/usr/lib/llvm-18/lib/clang/18/include/xtestintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+	/usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -1086,11 +1079,8 @@ toggletest_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/usr/share/cmake-3.28/Modules/Compiler/Clang-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	/usr/share/cmake-3.28/Modules/Compiler/Clang-FindBinUtils.cmake \
-	/usr/share/cmake-3.28/Modules/Compiler/Clang.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
@@ -1100,6 +1090,8 @@ toggletest_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+	/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+	/usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
 	/usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
@@ -1137,7 +1129,6 @@ toggletest_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
 	/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
 	/usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-	/usr/share/cmake-3.28/Modules/Platform/Linux-Clang-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
