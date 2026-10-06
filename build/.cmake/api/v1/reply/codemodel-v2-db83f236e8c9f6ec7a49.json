@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ToggleTestExample",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "toggleapp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggleapp-fdcdf82625d0b77ebaa5.json",
+					"name" : "toggleapp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggleapp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggleapp_autogen-5d9599dd972359d7df0b.json",
+					"name" : "toggleapp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggleapp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggleapp_autogen_timestamp_deps-e66221e243e37269254e.json",
+					"name" : "toggleapp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggletest-00da4fd747c7e4ab6597.json",
+					"name" : "toggletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggletest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggletest_autogen-bde64aff00d32646dc1a.json",
+					"name" : "toggletest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggletest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggletest_autogen_timestamp_deps-8206aa920700f98bf34f.json",
+					"name" : "toggletest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/build",
+		"source" : "/mnt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

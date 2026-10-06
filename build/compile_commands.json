@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/mnt/build -I/mnt -I/mnt/build/toggleapp_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/toggleapp.dir/toggleapp_autogen/mocs_compilation.cpp.o -c /mnt/build/toggleapp_autogen/mocs_compilation.cpp",
+  "file": "/mnt/build/toggleapp_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/toggleapp.dir/toggleapp_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/mnt/build -I/mnt -I/mnt/build/toggleapp_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/toggleapp.dir/main.cpp.o -c /mnt/main.cpp",
+  "file": "/mnt/main.cpp",
+  "output": "CMakeFiles/toggleapp.dir/main.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/mnt/build -I/mnt -I/mnt/build/toggleapp_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/toggleapp.dir/toggle_widget.cpp.o -c /mnt/toggle_widget.cpp",
+  "file": "/mnt/toggle_widget.cpp",
+  "output": "CMakeFiles/toggleapp.dir/toggle_widget.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"/mnt/build\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/mnt\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/mnt/build -I/mnt -I/mnt/build/toggletest_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtTest -g -fPIC -o CMakeFiles/toggletest.dir/toggletest_autogen/mocs_compilation.cpp.o -c /mnt/build/toggletest_autogen/mocs_compilation.cpp",
+  "file": "/mnt/build/toggletest_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/toggletest.dir/toggletest_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"/mnt/build\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/mnt\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/mnt/build -I/mnt -I/mnt/build/toggletest_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtTest -g -fPIC -o CMakeFiles/toggletest.dir/test_toggle_widget.cpp.o -c /mnt/test_toggle_widget.cpp",
+  "file": "/mnt/test_toggle_widget.cpp",
+  "output": "CMakeFiles/toggletest.dir/test_toggle_widget.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"/mnt/build\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/mnt\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/mnt/build -I/mnt -I/mnt/build/toggletest_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtTest -g -fPIC -o CMakeFiles/toggletest.dir/toggle_widget.cpp.o -c /mnt/toggle_widget.cpp",
+  "file": "/mnt/toggle_widget.cpp",
+  "output": "CMakeFiles/toggletest.dir/toggle_widget.cpp.o"
+}
+]
